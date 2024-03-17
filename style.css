@@ -75,7 +75,7 @@ main{
     height: 67px;
     margin-left: 108px;
     margin-top: 402px;
-    position: absolute;
+    position: static;
     width: 336px;
     
 }
