@@ -74,8 +74,8 @@ main{
     cursor: pointer;
     height: 67px;
     margin-left: 108px;
-    margin-top: 42px;
-    position: static;
+    margin-top: 402px;
+    position: absolute;
     width: 336px;
     
 }
