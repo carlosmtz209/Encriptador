@@ -37,7 +37,7 @@ main{
     margin-left: 98px;
     margin-top: 20px;
     padding-left: 98px;
-    position: fixed;
+    position: static;
 
 }
 .mensaje:focus {
@@ -74,8 +74,8 @@ main{
     cursor: pointer;
     height: 67px;
     margin-left: 108px;
-    margin-top: 402px;
-    position: absolute;
+    margin-top: 42px;
+    position: static;
     width: 336px;
     
 }
