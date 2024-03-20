@@ -21,7 +21,8 @@ function encriptarTexto(texto) {
       return;
     }
     const textoEncriptado = encriptarTexto(texto);  
-    const mensajeArea = document.querySelector('.mensaje').value = textoEncriptado;
+    const mensajeArea = document.querySelector('.mensaje');
+    mensajeArea.value = textoEncriptado;
     mensajeArea.style.backgroundImage = 'none';
   });
   
@@ -33,7 +34,8 @@ function encriptarTexto(texto) {
       return;
     }
     const textoDesencriptado = desencriptarTexto(texto);
-    const mensajeArea = document.querySelector('.mensaje').value = textoDesencriptado;
+    const mensajeArea = document.querySelector('.mensaje');
+    mensajeArea.value = textoDesencriptado;
     mensajeArea.style.backgroundImage = 'none';
   });
   
