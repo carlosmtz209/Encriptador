@@ -20,8 +20,9 @@ function encriptarTexto(texto) {
       alert("Por favor, ingresa el texto a encriptar.");
       return;
     }
-    const textoEncriptado = encriptarTexto(texto);
-    document.querySelector('.mensaje').value = textoEncriptado;
+    const textoEncriptado = encriptarTexto(texto);  
+    const mensajeArea = document.querySelector('.mensaje').value = textoEncriptado;
+    mensajeArea.style.backgroundImage = 'none';
   });
   
   // Manejador del botón desencriptar
@@ -32,7 +33,8 @@ function encriptarTexto(texto) {
       return;
     }
     const textoDesencriptado = desencriptarTexto(texto);
-    document.querySelector('.mensaje').value = textoDesencriptado;
+    const mensajeArea = document.querySelector('.mensaje').value = textoDesencriptado;
+    mensajeArea.style.backgroundImage = 'none';
   });
   
   // Copiar texto al portapapeles
